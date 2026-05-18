@@ -16,13 +16,13 @@ function calcular(){
     
     
     if(result > 10){
-        res.textContent = "soma maior que 10 boa";
+        res.textContent = `a soma entre ${num1} e ${num2} é ${result}`
         imagem.src = "https://i.pinimg.com/originals/32/a1/a6/32a1a6d07b669a4ddce4155093f14478.gif"
         document.body.style.background = "#01d0ff"
         
     }
     else if(result <= 10){
-        res.textContent = "soma menor ou igual a 10 boas"
+        res.textContent = `a soma entre ${num1} e ${num2} é ${result}` 
         imagem.src = "https://i.pinimg.com/736x/0a/76/c5/0a76c5d8263a38bea01bb1d19e8f4eeb.jpg"
         document.body.style.background = "#ff0000"
     }
